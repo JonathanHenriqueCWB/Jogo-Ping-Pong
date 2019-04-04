@@ -1,0 +1,39 @@
+body{ 
+	background-color: #ccc;
+	margin: 0px;
+}
+
+#dvPainel{
+	display: flex;
+	height: 50px;
+	align-items: center;
+}
+.itemPainel{
+	margin: 5px;
+}
+
+#dvJogo{	/*	CAMPO	*/
+	width: 960px; height: 500px;
+	background-color: #000;
+	border-left: 1px dotted white;
+}
+#dvBola{	/*	BOLA	*/
+	width: 20px; height: 20px;
+	background-color: #888;
+	position: absolute;
+	top: 240px; left: 475px;
+	border-radius: 10px;
+}
+.barra{		/*	BARRAS	*/
+	width: 20px; height: 140px;
+	background-color: #888;
+	position: absolute;
+	top: 180px;
+	border-radius: 10px;
+}
+.esquerda{	/*	POSIÇÃO BARRA 	*/
+	left: 10px;
+}
+.direita{	/*	POSIÇÃO BARRA 	*/
+	left: 930px;
+}
